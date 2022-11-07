@@ -9,7 +9,7 @@ import joblib
 
 app=Flask(__name__)
 
-model =joblib.load("C:\\Users\\GS574NS\\my_projects\\DS_Model_Deployment\\pipe_pklfile.pkl")
+model =joblib.load("pipe_pklfile.pkl")
 
 @app.route('/')
 
